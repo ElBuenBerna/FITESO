@@ -6,6 +6,24 @@
     <string name="explorar">Explorar</string>
     <string name="configuracion">Configuración</string>
     <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="practicas_deporte">¿Practicas algún deporte dentro del ITESO?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+
+
+    <string-array name="deportes">
+        <item>Atletismo</item>
+        <item>Básquetbol</item>
+        <item>Béisbol</item>
+        <item>Fútbol</item>
+        <item>Kendo</item>
+        <item>Rugby</item>
+        <item>Tae Kwon Do</item>
+        <item>Tenis</item>
+        <item>Tochito</item>
+        <item>Voleibol</item>
+        <item>Voleibol Playa</item>
+    </string-array>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

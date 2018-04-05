@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class ActivityMain extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -61,6 +62,9 @@ public class ActivityMain extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        } else if (id == R.id.action_logout){
+            Toast.makeText(this, "Se ha cerrado sesión correctamente", Toast.LENGTH_LONG).show();
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
@@ -83,6 +87,7 @@ public class ActivityMain extends AppCompatActivity
         } else if (id == R.id.nav_configuracion) {
 
         } else if (id == R.id.nav_cerrar_sesion) {
+            Toast.makeText(this, "Se ha cerrado sesión correctamente", Toast.LENGTH_LONG).show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
